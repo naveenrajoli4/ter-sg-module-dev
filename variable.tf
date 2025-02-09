@@ -19,9 +19,9 @@ variable "vpc_id" {
 }
 
 variable "commn_tags" {
-    default = {}
-    }
+  default = {}
+}
 
 variable "sg_tags" {
-    default = {}
+  default = {}
 }
