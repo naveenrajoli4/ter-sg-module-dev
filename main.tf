@@ -1,5 +1,5 @@
-resource "aws_security_group" "sg" {
-  name        = local.sg_name
+resource "aws_security_group" "sg_main" {
+  name        = local.sg_final_name
   description = var.description
   vpc_id      = var.vpc_id
 
@@ -15,7 +15,7 @@ resource "aws_security_group" "sg" {
     var.commn_tags,
     var.sg_tags,
     {
-      Name = local.sg_name
+      Name = local.sg_final_name
     }
   )
 
