@@ -17,9 +17,9 @@ variable "description" {
 
 }
 
-variable "vpc_id" {
+# variable "vpc_id" {
 
-}
+# }
 
 variable "commn_tags" {
   default = {}
