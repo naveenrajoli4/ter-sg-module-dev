@@ -15,7 +15,7 @@ resource "aws_security_group" "sg_main" {
     var.commn_tags,
     var.mysql_sg_tags,
     var.backend_sg_tags,
-    var.fronend_sg_tags,
+    var.frontend_sg_tags,
     {
       Name = local.sg_final_name
     }
