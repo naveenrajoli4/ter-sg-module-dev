@@ -13,7 +13,9 @@ resource "aws_security_group" "sg_main" {
 
   tags = merge(
     var.commn_tags,
-    var.sg_tags,
+    var.mysql_sg_tags,
+    var.backend_sg_tags,
+    var.fronend_sg_tags,
     {
       Name = local.sg_final_name
     }
