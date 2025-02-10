@@ -25,6 +25,14 @@ variable "commn_tags" {
   default = {}
 }
 
-variable "sg_tags" {
-  default = {}
+variable "mysql_sg_tags" {
+    default = {}
+}
+
+variable "backend_sg_tags" {
+    default = {}
+}
+
+variable "frontend_sg_tags" {
+    default = {}
 }
