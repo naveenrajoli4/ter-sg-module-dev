@@ -20,6 +20,6 @@ resource "aws_security_group" "sg_main" {
     {
       Name = local.sg_final_name
     }
-  )ssss
+  )
 
 }
